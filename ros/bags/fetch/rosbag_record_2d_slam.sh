@@ -3,6 +3,7 @@
 rosbag record \
   -o raw_2d_fetch \
   /base_scan \
+  /base_scan_raw \
   /imu \
   /joint_states \
   /odom \
