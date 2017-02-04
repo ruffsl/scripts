@@ -1,12 +1,11 @@
 #!/usr/bin/env python
+from __future__ import print_function
 
 import actionlib
 import rospy
 
 from control_msgs.msg import PointHeadAction, PointHeadGoal
 from tf import TransformListener
-
-from __future__ import print_function
 
 
 class Follower():
